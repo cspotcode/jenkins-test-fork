@@ -1,1 +1,1 @@
-echo "Hello from Jenkinsfile: Branch is ${BRANCH_NAME}, or ${env.BRANCH_NAME}"
+echo "Hello from Jenkinsfile: Branch is ${env.BRANCH_NAME}"
